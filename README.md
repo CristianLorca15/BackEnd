@@ -1,4 +1,4 @@
-# BackEnd
+pi# BackEnd
 Repositorio creado para las clases
 
 ```sh
@@ -26,9 +26,16 @@ django-admin startproject bienvenida ## Creamos el proyecto con el nombre bienve
 
 cd bienvenida ## comando para cambiar a la ruta con la carpeta
 
--python manage.py runserver ##comando para correr el servidor
+python manage.py runserver ##comando para correr el servidor
+
+## Comandos claves para migracion
+
+python manage.py makemigrations ## creea migraciones 
+
+python manage.py migrate ## este las aplica las migraciones
 
 
+##creamos la carpeta Models.py
 
 
 
