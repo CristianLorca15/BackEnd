@@ -37,7 +37,20 @@ python manage.py migrate ## este las aplica las migraciones
 
 ##creamos la carpeta Models.py
 
+python manage.py makemigrations bienvenida
+
+python manage.py migrate bienvenida
+
+
+## luego de esto creamos una tabla Producto con dos columnas: nombre y precio en el file de Models.
+
+## El resto esta en los apuntes de la clase 3
+
+## se creo una carpeta templates y dentro de esta una carpeta productos y dentro de esta un file que se llama lista.html en donde esta la estructura de nuestro html
+
+Base de datos DB Browser para manejar bases de datos ## sirve para hacer pruebas
 
 
 
 ```
+ 

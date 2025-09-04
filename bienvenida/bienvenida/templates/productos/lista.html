@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Lista de Productos</title> 
+    </head>
+    <body>
+        <h1>Productos disponibles</h1>
+        <ul>
+            {% for producto in productos %}
+        <li>{{ producto.nombre }} - ${{ producto.precio }} - {{ producto.stock }} </li>
+        {% if producto.stock >= 0%}
+            <span style="color: red;font-weight: 800; font-family: monospace;">Sin Stock</span>
+        {% empty %}
+            <li>
+                No hay ningun producto disponible
+            </li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
