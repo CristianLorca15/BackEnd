@@ -50,6 +50,15 @@ python manage.py migrate bienvenida
 
 Base de datos DB Browser para manejar bases de datos ## sirve para hacer pruebas
 
+## Creamos una nueva app inventario
+ con el comando python manage.py startapp inventario
+
+ creamos la carpeta forms.py dentro de inventario
+
+
+
+
+
 
 
 ```
