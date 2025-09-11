@@ -56,10 +56,16 @@ Base de datos DB Browser para manejar bases de datos ## sirve para hacer pruebas
  creamos la carpeta forms.py dentro de inventario
 
 
+comando python manage.py createsuperuser
+ admin
+ cristian.lorca09inacapmail.cl
+ admin contraseña
+ y
 
-
-
-
+Username (leave blank to use 'sistemas'): admin
+Email address: admin@admin.cl 
+Password:admin
+Password (again):admin
 
 ```
  
