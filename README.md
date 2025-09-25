@@ -64,10 +64,10 @@ Email address: admin@admin.cl
 Password:admin
 Password (again):admin
 
-tailwindcss
-
+tailwindcss (Flowbin)
+######
 Es una libreria para darle estilo a la pagina
-
+######
 
 
 
